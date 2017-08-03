@@ -23,8 +23,7 @@ description:         >
 # This should be the same author as first entry in `_data/authors.yml`
 author:
   name: WeiWu
-  email:wuwei_95@outlook.com
-
+  email: wuwei_95@outlook.com
 # Fallback image and color
 image:               /Augustf/assets/img/nap.jpg
 color:               '#4f86aa'
