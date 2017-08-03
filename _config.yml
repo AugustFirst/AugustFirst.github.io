@@ -110,6 +110,7 @@ exclude:
   - README.md
   - node_modules
   - package.json
+<<<<<<< HEAD
   - package-lock.json
   - Gemfile
   - Gemfile.lock
@@ -130,3 +131,9 @@ compress_html:
 
 sass:
   style:             compressed
+=======
+  - spec
+  - tmp
+
+theme: jekyll-theme-minimal
+>>>>>>> origin/master
