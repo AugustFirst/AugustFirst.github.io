@@ -22,9 +22,9 @@ description:         >
   Open `_config.yml` to edit this text.
 
 # This should be the same author as first entry in `_data/authors.yml`
-author:Tigerwu
-  name:WeiWu
-  email:wuwei_95@outlook.com
+author:
+  name:              <firstname> <lastname>
+  email:             <mail@domain.tld>
 
 # Fallback image and color
 image:               /hydejack/assets/img/nap.jpg
@@ -38,7 +38,7 @@ font:                "'Noto Sans', Helvetica, Arial, sans-serif"
 
 # The string encoding what fonts to fetch from Google Fonts.
 # See: https://qwtel.com/hydejack/docs/configuration/
-google_fonts:        
+google_fonts:        Roboto+Slab:700|Noto+Sans:400,400i,700,700i
 
 # If you do not use a Google Fonts, uncomment the line below
 # no_google_fonts:     true
@@ -48,7 +48,7 @@ google_fonts:
 google_analytics:    <UA-XXXXXXXX-X>
 
 # Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
-disqus_shortname:   
+disqus_shortname:    <username>
 
 # This text will appear in the footer of every page. Markdown enabled.
 copyright:           '&copy; 2017. All rights reserved.'
@@ -110,7 +110,6 @@ exclude:
   - README.md
   - node_modules
   - package.json
-<<<<<<< HEAD
   - package-lock.json
   - Gemfile
   - Gemfile.lock
@@ -131,9 +130,3 @@ compress_html:
 
 sass:
   style:             compressed
-=======
-  - spec
-  - tmp
-
-theme: jekyll-theme-minimal
->>>>>>> origin/master
