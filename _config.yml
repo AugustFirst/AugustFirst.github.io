@@ -10,7 +10,7 @@ url:                 https://augustfirst.github.io
 
 # Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
 # Set to '/<reponame>' when using the `gh-pages` branch of a repository
-baseurl:             /augustfirst.github.io
+baseurl:             /AugustFirst.github.io
 
 # A very short description of your page
 tagline:             A pretentious two-column Jekyll theme.
@@ -21,7 +21,7 @@ description:         >
   Learn to write,write to learn
 
 # This should be the same author as first entry in `_data/authors.yml`
-author:
+author:WeiWu
   name: WeiWu
   email: wuwei_95@outlook.com
 # Fallback image and color
