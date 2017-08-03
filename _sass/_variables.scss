@@ -1,56 +1,27 @@
-/* ==========================================================================
-   SCSS Variables
-   ========================================================================== */
+$gray: #9a9a9a;
+$gray-bg: #f9f9f9;
+$gray-text: #787878;
 
-/* 
-   Page
-   ========================================================================== */
+$root-font-size: 16px;
+$root-font-size-medium: 17px;
+$root-font-size-large: 18px;
+$root-line-height: 1.75;
 
-$feature-image-height            : 400px; // min 150px recommended
-$front-page-feature-image-height : 400px; // min 150px recommended
+$body-color: #333;
+$body-bg: #fff;
 
-/* 
-   Typography
-   ========================================================================== */
+$border-color: #e5e5e5;
+$border-color-light: #eee;
 
-$base-font                       : 'Lato', Calibri, Arial, sans-serif;
-$heading-font                    : $base-font;
-$caption-font                    : $base-font;
-$code-font                       : monospace;
-$alt-font                        : serif;
+$code-font-family: Menlo, Monaco, Consolas, monospace;
+$code-color: inherit;
 
-$doc-font-size                   : 16;
-$doc-line-height                 : 26;
+$break-point-1: 40em;
+$break-point-2: 54em;
+$break-point-3: 60em;
+$break-point-4: 72em;
+$break-point-5: 92em;
+$break-point-dynamic: 97.5em;
+$break-point-font-large: 125em;
 
-
-// set-up the body font-size / line-height
-body {
-  margin-top: 0px + $doc-line-height;
-  font-size: 0px + $doc-font-size;
-}
-
-/* 
-   Colors
-   ========================================================================== */
-
-$base-color                      : rgba(#222,0.8);
-$body-color                      : #e8e8e8;
-$text-color                      : rgba(#222,0.8);
-$comp-color                      : complement(#222);
-$border-color                    : lighten($base-color,60);
-$link-color                      : rgba(#222,0.8);
-
-$primary                         : #222;
-$success                         : #5cb85c;
-$warning                         : #dd8338;
-$danger                          : #C64537;
-$info                            : #308cbc;
-
-
-/* 
-   Screen sizes
-   ========================================================================== */
-
-$small                           : "only screen and (min-width: 30em)";
-$medium                          : "only screen and (min-width: 48em)";
-$large                           : "only screen and (min-width: 62.5em)";
+$dynamic-width: calc(50% - 28rem);
