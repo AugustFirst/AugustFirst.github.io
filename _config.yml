@@ -28,3 +28,4 @@ exclude:
 
 # Development Parameter for Puma 
 destination: public
+theme: jekyll-theme-minimal
