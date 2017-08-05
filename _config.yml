@@ -1,5 +1,5 @@
 # Site settings
-name: Less Or More
+name: Michaelwu's Blog
 email: wuwei_95@outlook.com 
 author: Michaelwu
 url: https://augustfirst.github.io
@@ -8,8 +8,8 @@ github: https://github.com/augustfirst
 baseurl: "/AugustFirst.github.io"
 description: Learn to write,write to learn.
 meta_description: 
-motto: It's our wits that make us men.
-banner: 学而不思则罔，思而不学则殆。
+motto:而今更笃凌云志，莫教冰鉴负初心
+banner: 
 
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
@@ -18,7 +18,7 @@ paginate: 10
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
 github_username: AugustFirst
-highlighter: Pygments
+highlighter: Rouge
 
 # Build settings
 markdown: kramdown
