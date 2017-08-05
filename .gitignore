@@ -1,6 +1,7 @@
 
 
 # Files from local Puma development
+_site
 .env
 .envrc
 .asset-cache/
