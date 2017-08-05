@@ -1,31 +1,27 @@
-title: Michaelwu
-email: wuwei_95@outlook.com
-description: A fork of @orderlist's Minimal theme, built for Jekyll
-baseurl: "/AugustFirst.github.io" 
-url: "https://minimal-jekyll.lo/"
+# Site settings
+name: Less Or More
+email: wuwei_95@outlook.com 
+author: Michaelwu
+url: https://augustfirst.github.io
+resume_site: 
+github: https://github.com/augustfirst
+baseurl: "/AugustFirst.github.io"
+description: Learn to write,write to learn.
+meta_description: 
+motto: It's our wits that make us men.
+banner: 学而不思则罔，思而不学则殆。
 
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: AugustFirst
+highlighter: Pygments
+
+# Build settings
 markdown: kramdown
 
-sass:
-  style: compressed
-gems:
-  - jekyll-assets
+baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
 
-assets:
-  compress:
-    css: true
-    js: true
-  prefix: "/assets"
-  digest: true
-
-babel_js_extensions: 'es6, babel, jsx'
-  
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - /tmp/
-  - config.ru
-
-# Development Parameter for Puma 
-destination: public
-theme: jekyll-theme-minimal
