@@ -1,15 +1,15 @@
 # Site settings
-name: Michaelwu's Blog
+name: Michael Wu's Blog
 email: wuwei_95@outlook.com 
-author: Michaelwu
+author: Michael Wu
 url: https://augustfirst.github.io
-resume_site: 
+resume_site: https://augustfirst.github.io
 github: https://github.com/augustfirst
 baseurl: "/AugustFirst.github.io"
 description: Learn to write,write to learn.
-meta_description: 
-motto: 
-banner: 
+meta_description: Michael Wu;个人博客
+motto: The only limit to our realization of tomorrow will be our doubts of today.
+banner: 而今更笃凌云志，莫教冰鉴负初心
 
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
