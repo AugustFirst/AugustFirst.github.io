@@ -1,27 +1,50 @@
 # Site settings
-name: Michael Wu's Blog
-email: wuwei_95@outlook.com 
+title: MichaelWu's Blog
+email: wuwei_95@outlook.com
+description: > # this means to ignore newlines until "baseurl:"
+  MichaelWu's Blog
+baseurl: "augustfirst.github.io" # the subpath of your site, e.g. /blog/
+url:  augustfirst.github.io# the base hostname & protocol for your site
+rss_url: /pages/feed.xml
 author: Michael Wu
-url: https://augustfirst.github.io
-resume_site: https://augustfirst.github.io
-github: https://github.com/augustfirst
-baseurl: "/AugustFirst.github.io"
-description: Learn to write,write to learn.
-meta_description: Michael Wu;个人博客
-motto: The only limit to our realization of tomorrow will be our doubts of today.
-banner: 而今更笃凌云志，莫教冰鉴负初心
 
-#permalink: /:categories/:year/:month/:day/:title/
-permalink: /:year/:month/:day/:title/
-paginate: 10
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'category'
+recent_num: 20
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+# Social account
+twitter: 
+weibo: 所静远
+github: augustfirst
+instagram: 
+linkedin: 
 
-github_username: AugustFirst
-highlighter: Rouge
+# avatar and Favicon
+avatar: assets\logo.jpg
+favicon: assets\favicon.jpg
+
+# disqus config
+disqus:
+  shortname: 
+
+# google analytics config
+ga:
+  id: UA-54767140-1
+  url: 
 
 # Build settings
+permalink: /:year/:month/:day/:title.html
 markdown: kramdown
+highlighter: rouge
+mathjax: disabled
+sass:
+  style: compressed
 
-baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
+# Jekyll Plugin
+# https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
 
