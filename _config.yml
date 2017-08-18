@@ -21,8 +21,8 @@ instagram:
 linkedin: 
 
 # avatar and Favicon
-avatar: AugustFirst.github.io\assets\logo.jpg
-favicon: AugustFirst.github.io\assets\favicon.jpg
+avatar: \assets\logo.jpg
+favicon: \assets\favicon.jpg
 
 # disqus config
 disqus:
