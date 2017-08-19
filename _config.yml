@@ -2,7 +2,7 @@
 title: MichaelWu's Blog
 email: wuwei_95@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
-  MichaelWu's Blog 
+  MichaelWu's Blog
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: augustfirst.github.io # the base hostname & protocol for your site
 rss_url: /pages/feed.xml
@@ -14,24 +14,22 @@ filter: 'category'
 recent_num: 20
 
 # Social account
-twitter: 
+twitter:
 weibo: 所静远
 github: augustfirst
-instagram: 
-linkedin: 
+instagram:
+linkedin:
 
 # avatar and Favicon
-avatar: assets\img\logo.jpg
+avatar: assets\img\微信图片_20170819153057.jpg
 favicon: assets\img\favicon.jpg
 
 # disqus config
 disqus:
-  shortname: 
+  shortname:
 
 # google analytics config
-ga:
-  id: UA-54767140-1
-  url: yansu.org
+
 
 # Build settings
 permalink: /:year/:month/:day/:title.html
@@ -47,4 +45,3 @@ gems:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
-
