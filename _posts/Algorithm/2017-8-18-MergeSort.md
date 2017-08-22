@@ -2,7 +2,7 @@
 layout: post
 title: 归并排序
 date: 2017-8-18
-categories: 数据结构和算法
+categories: 算法
 tag: MergeSort
 ---
 ## 归并排序
