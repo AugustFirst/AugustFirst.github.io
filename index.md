@@ -1,7 +1,9 @@
 ---
-title: HelloWorld
+title: Hi
 layout: post
 ---
+
+# 这是我的博客，这里记录了我的学习和生活
 
 ## 而今更笃凌云志，莫教冰鉴负初心
 
