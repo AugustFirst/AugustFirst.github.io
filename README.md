@@ -1,5 +1,1 @@
-# MichaelWu's Blog
-
-
-
-
+# [MichaelWu's Blog](https://augustfirst.github.io/)
