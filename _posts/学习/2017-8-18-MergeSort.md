@@ -2,7 +2,7 @@
 layout: post
 title: 归并排序
 date: 2017-8-18
-categories: 算法
+categories: 学习
 tag: MergeSort
 ---
 ## 归并排序
