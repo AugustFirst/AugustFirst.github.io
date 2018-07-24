@@ -21,14 +21,16 @@ tag: 字典
 * **值**可以取任何数据类型，但**键**只能用**字符串**，**数字**或**元组**
 
 ------------------------------------
-        xiaoming = {"name":"小明",
-                    "age":18,
-                    "gender":True,
-                    "height":1.75,
-                    "weight":140}
-        # 字典是一个无序的数据集合，使用print函数输出字典时，
-        输出的顺序和定义的顺序是不一致的！
-        print(xiaoming)
+    xiaoming = {"name":"小明",
+                "age":18,
+                "gender":True,
+                "height":1.75,
+                "weight":140}
+    # 字典是一个无序的数据集合，使用print函数输出字典时，
+    输出的顺序和定义的顺序是不一致的！
+    print(xiaoming)   
+    
+
 # 字典的增删改
 -----------------------
         xiao_dict = {"name":"xiaoming"}
@@ -48,7 +50,8 @@ tag: 字典
         xiao_dict.pop("name")
         # 在删除指定的键值对时，如果指定的key不存在，程序会报错
 
-        print(xiao_dict)
+        print(xiao_dict)  
+
 
 # 字典的常用操作
 -------------------------
